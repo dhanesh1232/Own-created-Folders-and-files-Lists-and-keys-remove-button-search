@@ -1,0 +1,36 @@
+li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.data {
+  display: flex;
+  align-items: center;
+  margin-left: 5rem;
+  text-align: left;
+}
+.domain {
+  margin-left: 1.8rem;
+}
+.logo {
+  height: 35px;
+}
+img {
+  height: 100%;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+.delete {
+  align-self: flex-end;
+  margin: auto;
+}
+.btn {
+  text-align: right;
+  margin-left: auto;
+  margin-right: 20px;
+  border: 0px solid;
+  background-color: transparent;
+}
+.btn:hover {
+  cursor: pointer;
+}
